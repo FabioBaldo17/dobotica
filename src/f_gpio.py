@@ -65,7 +65,7 @@ def movimento(stanza,verso):
                 print(pin[1])
                 GPIO.output(pin[1],spento)
 
-		GPIO.cleanup()
+        GPIO.cleanup()
         return 87
 
     pUp=getStanzaPin(stanza)[0]
@@ -92,5 +92,5 @@ def movimento(stanza,verso):
         GPIO.output(pDown,acceso)
         time.sleep(tempo)
         GPIO.output(pDown,spento)
-	GPIO.cleanup()
+    GPIO.cleanup()
     return 87

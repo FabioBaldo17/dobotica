@@ -17,15 +17,15 @@ token=getToken()
 stanza=""
 
 locationPickerKeyboard = [
-    [InlineKeyboardButton("Sala", callback_data="s"), InlineKeyboardButton("Cucina", callback_data="c")],
-    [InlineKeyboardButton("Camera Fabio", callback_data="cf"), InlineKeyboardButton("Camera Sonia", callback_data="cs")],
-    [InlineKeyboardButton("Tutto", callback_data='t')]
+    [InlineKeyboardButton("Sala 🛋️", callback_data="s"), InlineKeyboardButton("Cucina 🔪", callback_data="c")],
+    [InlineKeyboardButton("Camera Fabio 💻", callback_data="cf"), InlineKeyboardButton("Camera Sonia 🛏️", callback_data="cs")],
+    [InlineKeyboardButton("Tutto 🏠", callback_data='t')]
     ]
 
 upDownKeyboard = [
-    [InlineKeyboardButton("Sù", callback_data="u")],
-    [InlineKeyboardButton("A metà", callback_data="m")],
-    [InlineKeyboardButton("Giù", callback_data="d")]
+    [InlineKeyboardButton("Sù 🔺", callback_data="u")],
+    [InlineKeyboardButton("A metà 🔴", callback_data="m")],
+    [InlineKeyboardButton("Giù 🔻", callback_data="d")]
     ]
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
