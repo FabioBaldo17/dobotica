@@ -6,7 +6,7 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 import logging
 
 from f_gpio import *
-from secretConf import *
+from secret import *
 
 ## inizio impostazioni
 allowedUsers=getAllowedUsers()
